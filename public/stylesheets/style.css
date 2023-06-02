@@ -1,5 +1,5 @@
 body {
-  padding: 50px;
+  /* padding: 50px; */
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
@@ -7,4 +7,98 @@ a {
   color: #00B7FF;
 }
 
+main{
+  background-image: url('/images/cinema.jpg');
+  background-size: cover;
+  font-size: 100px;
+  min-height: 100vh;
+  color: white;
+}
 
+main div{
+  padding: 10vh 0 0 55vw;
+}
+
+main input{
+  height: 50px;
+  width: 250px;
+  border-radius: 25px;
+  border-color: white;
+  font-size: 18px;
+  color: #00B7FF;
+}
+
+#movies-cont{
+  padding: 5%;
+}
+
+#movies-cont h1{
+  font-size: 35px;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+#movies-cont h2{
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+
+#movies-cont section{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 0 5%;
+  gap: 15%;
+}
+
+.sml-box{
+  text-align: center;
+  padding-bottom: 50px;
+  font-size: 18px;
+  width: 250px;
+}
+
+.sml-box h3{
+  padding: 10px 0;
+}
+
+#single-cont{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5%;
+}
+
+#single-cont img{
+  height: 400px;
+  padding-top: 15px;
+}
+
+#single-cont div{
+  padding-left: 50px;
+  width: 50vw;
+  font-size: 20px;
+}
+
+#single-cont h1{
+  padding-bottom: 15px;
+}
+
+#single-cont h2{
+  padding-bottom: 30px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#single-cont h3{
+  font-size: 25px;
+  font-weight: bold;
+  padding-bottom: 25px;
+}
+
+#single-cont ul{
+  padding-left: 20px;
+}
+
+#single-cont p{
+  padding-top: 20px;
+}
